@@ -12,6 +12,10 @@ function translator(){
     .then((json)=>{console.log(json.contents.translated);
     var output = json.contents.translated;
     op.innerText = output;})
-    .catch(error => console.log(error));
+    .catch(error => {
+        console.log(error);
+        op.innerText = "We are unable to keep up with your pace. Please try again in an hour.";
+        op.classList.add("error");
+    });
 
 }

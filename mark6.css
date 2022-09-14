@@ -1,3 +1,4 @@
+
 body{
   width: 99.99vw;
   margin: 0px;
@@ -106,5 +107,8 @@ h2{
     width: 40%;
     transform: translateX(30vw);
     font-family: cursive;
-    font-size: 15px;
-  }
+    font-size: 15px;}
+.error{
+  background-image: linear-gradient(to bottom, red, white 100%);
+}
+  
